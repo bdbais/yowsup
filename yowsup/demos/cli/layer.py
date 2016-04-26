@@ -166,7 +166,7 @@ class YowsupCliLayer(Cli, YowInterfaceLayer):
 
     ####### contacts/ profiles ####################
     @clicmd("Set status text")
-    def profile_setprofile_setStatusStatus(self, text):
+    def profile_setStatus(self, text):
         if self.assertConnected():
 
             def onSuccess(resultIqEntity, originalIqEntity):
